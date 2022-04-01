@@ -23,4 +23,6 @@ use App\Http\Controllers\CrudController;
 Route::get('/', [CrudController :: class, 'showData']);
 Route::get('/add_data', [CrudController :: class, 'addData']);
 Route::post('/storeData', [CrudController :: class, 'storeData']); // post because of data store security
-
+Route::get('/editDataPage/{id}', [CrudController :: class, 'editDataPage']); // {id} not {$id}
+Route::post('/editData/{id}', [CrudController :: class, 'editData']); // post because of data store security
+Route::get('/deleteData/{id}', [CrudController :: class, 'deleteData']); 

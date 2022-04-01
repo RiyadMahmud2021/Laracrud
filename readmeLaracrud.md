@@ -1,3 +1,5 @@
+# Imp Link: https://www.youtube.com/playlist?list=PLjsp2uDzfb32JOpUPYiu30LuMHjEcQgNz
+
 # Laravel Project Problem Solving Sequence 
 
 -> View -> Controller -> Routing  -> Model
@@ -9,7 +11,7 @@
 # Web Journey
 
 # Laravel 8 Crud Bangla | Install Laravel | Create Database Model Migration Table | Part - 01
-
+# --------------------------------------------------------------------------------------------------------
 1. Install Laravel 
     - Laravel Installing with composer
 
@@ -46,6 +48,7 @@
 
 
 # Laravel 8 Crud Bangla | Create Controller | Design Form and Table Page | Part - 02
+# --------------------------------------------------------------------------------------------------------
 
 1. Create Controller 
     - cli : php artisan make:Controller CrudController
@@ -71,6 +74,7 @@
         - Route::get('/add_data', [CrudController :: class, 'addData']);
 
 # Laravel 8 Crud Bangla _ Form Validation with Custom Message _ Part- 03
+# --------------------------------------------------------------------------------------------------------
 
 1. Storing Data method
     - View file: action setting on add_data.blade.php  
@@ -115,6 +119,7 @@
         - Route::get('/store_data', [CrudController :: class, 'storeData']);
 
 # Laravel 8 Crud Bangla _ Add Data With Success Message _ Part - 04
+# --------------------------------------------------------------------------------------------------------
 
 1. Data Insert 
     - View file: 
@@ -159,3 +164,9 @@
     - Route setting: 
         - On routes -> web.php
         - Route::get('/store_data', [CrudController :: class, 'storeData']);
+
+# Laravel 8 Crud Bangla | Show Data With Pagination | Part 05
+# --------------------------------------------------------------------------------------------------------
+
+1. Pagination 
+    - 
