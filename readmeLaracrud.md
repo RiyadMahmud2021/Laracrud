@@ -2,7 +2,9 @@
 
 # Laravel Project Problem Solving Sequence 
 
--> View -> Controller -> Routing  -> Model
+-> View -> Routing -> Controller -> Model
+Or,
+-> Model -> View -> Routing -> Controller 
 
 # Prob Fix
 1.  Class 'App\Providers\ServiceProvider' not found (https://stackoverflow.com/questions/45775231/php-fatal-error-class-app-providers-serviceprovider-not-found-after-i-fixed )
@@ -168,5 +170,5 @@
 # Laravel 8 Crud Bangla | Show Data With Pagination | Part 05
 # --------------------------------------------------------------------------------------------------------
 
-1. Pagination 
+1. Pagination
     - 

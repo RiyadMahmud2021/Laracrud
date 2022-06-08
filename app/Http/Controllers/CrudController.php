@@ -28,7 +28,7 @@ class CrudController extends Controller
 
         $rules = [ // Form validation rules
             'name' => 'required|max : 10',
-            'email' => 'required|email', 
+            'email' => 'required|email',
         ];
         $customMSG = [ // Form validation Custom message setup
  
@@ -39,7 +39,7 @@ class CrudController extends Controller
 
         ];
         
-        $this->validate($request,$rules,$customMSG); // form validation
+        $this->validate($request,$rules,$customMSG); // form validation 
 
         $crud = new Crud(); // Crud model-class's object creation for getting field of db 'crud' table
         $crud->name = $request->name;  // $crud->name = database field , $resquest->name = from field name
@@ -91,8 +91,5 @@ class CrudController extends Controller
         Session::flash('msg_d','Successfully Data deleted.');
         return redirect('/');
     }
-
-
-
 
 }
